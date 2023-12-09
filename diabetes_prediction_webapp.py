@@ -25,10 +25,10 @@ def diabetes_prediction(input_data):
 
     if (prediction[0] == 0):
       return 'The person is not diabetic'
-       st.toast('Your edited image was saved!', icon='😍')
+       st.toast('Your edited image was saved!', icon='')
     else:
       return 'The person is diabetic'
-      st.toast('Your edited image was saved!', icon='😍')
+      st.toast('Your edited image was saved!', icon='')
   
 def main():
     
