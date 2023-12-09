@@ -25,10 +25,10 @@ def diabetes_prediction(input_data):
 
     if (prediction[0] == 0):
       return 'The person is not diabetic';
-       st.warning('This is a warning', icon="⚠️");
+       st.warning('This is a warning', icon="error");
     else:
       return 'The person is diabetic';
-       st.warning('This is a warning', icon="⚠️");
+       st.warning('This is a warning', icon="is sick");
   
 def main():
     
