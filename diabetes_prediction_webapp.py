@@ -35,8 +35,8 @@ def main():
     st.image("logo.png",width=200)
     st.image("logo.png",width=200)
     #getting the input data from the user
-    
-    Pregnancies = st.text_input('Number of Pregnencies')
+    Pregnancies = st.number_input("Insert a number", value=None, placeholder="Type a number...")
+    #Pregnancies = st.text_input('Number of Pregnencies')
     Glucose = st.text_input('Glucose Level')
     BloodPressure = st.text_input('Blood Pressure Value')
     SkinThickness = st.text_input('Skin Thickness Value')
