@@ -28,7 +28,7 @@ def diabetes_prediction(input_data):
        # st.toast('Your edited image was saved!')
     else:
       return 'The person is diabetic'
-      # st.toast('Your edited image was saved!')
+      st.toast('body', *, icon=None)
   
 def main():
     
