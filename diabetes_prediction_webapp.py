@@ -33,7 +33,7 @@ def diabetes_prediction(input_data):
 def main():
     
     # giving title
-    st.title('Diabetes Prediction Web App')
+    st.title('Diabetes Prediction Web App Diabetes Prediction Web App')
     st.image("logo.png",width=200)
     st.image("logo.png",width=200)
     #getting the input data from the user
