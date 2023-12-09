@@ -54,12 +54,7 @@ def main():
     
     st.success(diagnosis)
 
-import streamlit as st
 
-video_file = open('myvideo.mp4', 'rb')
-video_bytes = video_file.read()
-
-st.video(video_bytes)
 
 if __name__=='__main__':
     main()
