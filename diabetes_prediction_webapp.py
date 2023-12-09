@@ -22,13 +22,13 @@ def diabetes_prediction(input_data):
 
     prediction = loaded_model.predict(input_data_reshaped)
     print(prediction)
-
+st.toast('Your edited image was saved!')
     if (prediction[0] == 0):
       return 'The person is not diabetic'
-       st.toast('Your edited image was saved!')
+       # st.toast('Your edited image was saved!')
     else:
       return 'The person is diabetic'
-      st.toast('Your edited image was saved!')
+      # st.toast('Your edited image was saved!')
   
 def main():
     
