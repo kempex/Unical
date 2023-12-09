@@ -35,7 +35,7 @@ def main():
     st.image("logo.png",width=200)
     st.image("logo.png",width=200)
     #getting the input data from the user
-    Pregnancies  = st.number_input('Insert a number', value=0)
+    Pregnancies  = st.number_input('Number of Pregnencie', value=0)
     #Pregnancies = st.text_input('Number of Pregnencies')
     Glucose = st.text_input('Glucose Level')
     BloodPressure = st.text_input('Blood Pressure Value')
