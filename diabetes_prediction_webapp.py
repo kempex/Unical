@@ -28,7 +28,7 @@ def diabetes_prediction(input_data):
       st.toast('You can use emoji :sunglasses: in toast message')
     else:
       return 'The person is diabetic'
-     
+     st.toast('You can use emoji :sunglasses: in toast message')
   
 def main():
     
