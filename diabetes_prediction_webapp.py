@@ -35,7 +35,6 @@ def main():
     # giving title
     st.title('Diabetes Diagnostics System University of Calabar Teaching Hospital')
     st.image("logo.png",width=200)
-    st.image("logo.png",width=200)
     #getting the input data from the user
     Pregnancies = st.number_input('Number of Pregnencie', value=0)
     Glucose = st.number_input('Glucose Level', value=0)
@@ -45,7 +44,7 @@ def main():
     BMI = st.number_input('BMI value', value=0)
     DiabetesPedigreeFunction  = st.number_input('Diabetes Pedigree Function value', value=0)
     Age  = st.number_input('Age of the person', value=0)
-    
+    st.image("logo.png",width=200)
     #code for prediction 
     diagnosis = ''
     
