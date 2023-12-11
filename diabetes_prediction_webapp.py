@@ -49,10 +49,11 @@ def main():
     
     #creating a button for prediction
     if st.button('Diabetes Test Result'):
+        st.image("logo.png",width=200)
         diagnosis = diabetes_prediction([Pregnancies,Glucose,BloodPressure,SkinThickness,Insulin,BMI,DiabetesPedigreeFunction,Age])
     
     st.success(diagnosis)
-st.image("logo.png",width=200)
+
 
 
 if __name__=='__main__':
