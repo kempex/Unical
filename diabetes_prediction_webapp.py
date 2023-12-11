@@ -43,6 +43,9 @@ def main():
     SkinThickness = st.number_input('Skin Thickness Value', value=0)
     Insulin = st.number_input('Insulin Level', value=0)
     BMI = st.number_input('BMI value', value=0)
+    DiabetesPedigreeFunction  = st.number_input('Diabetes Pedigree Function value', value=0)
+   Age  = st.number_input('Age of the person', value=0)
+    
     #code for prediction 
     diagnosis = ''
     
