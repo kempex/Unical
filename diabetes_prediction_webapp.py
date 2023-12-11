@@ -41,6 +41,8 @@ def main():
     Glucose = st.number_input('Glucose Level', value=0)
     BloodPressure = st.number_input('Blood Pressure Value', value=80)
     SkinThickness = st.number_input('Skin Thickness Value', value=0)
+    Insulin = st.number_input('Insulin Level', value=0)
+    BMI = st.number_input('BMI value', value=0)
     #code for prediction 
     diagnosis = ''
     
