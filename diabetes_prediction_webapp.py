@@ -39,7 +39,7 @@ def main():
     #getting the input data from the user
     Pregnancies = st.number_input('Number of Pregnencie', value=0)
     Glucose = st.number_input('Glucose Level', value=0)
-    
+    BloodPressure = st.number_input('Blood Pressure Value', value=80)
     #code for prediction 
     diagnosis = ''
     
