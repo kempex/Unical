@@ -36,7 +36,7 @@ def main():
     st.title('Diabetes Diagnostics System University of Calabar Teaching Hospital')
     st.image("logo.png",width=200)
     #getting the input data from the user
-    Pregnancies = st.number_input('Number of Pregnencie', value=0)
+    Pregnancies = st.number_input('Number of Pregnancy', value=0)
     Glucose = st.number_input('Glucose Level', value=0)
     BloodPressure = st.number_input('Blood Pressure Value', value=80)
     SkinThickness = st.number_input('Skin Thickness Value', value=0)
@@ -49,9 +49,9 @@ def main():
     
     #creating a button for prediction
     if st.button('Diabetes Test Result'):
-        st.image("logo.png",width=200)
+        
         diagnosis = diabetes_prediction([Pregnancies,Glucose,BloodPressure,SkinThickness,Insulin,BMI,DiabetesPedigreeFunction,Age])
-    
+    st.image("logo.png",width=200)
     st.success(diagnosis)
 
 
