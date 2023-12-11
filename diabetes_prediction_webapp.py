@@ -39,13 +39,14 @@ def main():
     #getting the input data from the user
     Pregnancies  = st.number_input('Number of Pregnencie', value=0)
     #Pregnancies = st.text_input('Number of Pregnencies')
-    Glucose = st.text_input('Glucose Level')
-    BloodPressure = st.text_input('Blood Pressure Value')
-    SkinThickness = st.text_input('Skin Thickness Value')
-    Insulin = st.text_input('Insulin Level')
-    BMI = st.text_input('BMI value')
-    DiabetesPedigreeFunction = st.text_input('Diabetes Pedigree Function value')
-    Age = st.text_input('Age of the person')
+     Glucose  = st.number_input('Glucose Level', value=0)
+   BloodPressure  = st.number_input('Blood Pressure Value', value=80)
+    SkinThickness  = st.number_input('Skin Thickness Value', value=0)
+   Insulin  = st.number_input('Insulin Level', value=0)
+   BMI  = st.number_input('BMI value', value=0)
+    DiabetesPedigreeFunction  = st.number_input('Diabetes Pedigree Function value', value=0)
+   Age  = st.number_input('Age of the person', value=0)
+    
     
     #code for prediction 
     diagnosis = ''
