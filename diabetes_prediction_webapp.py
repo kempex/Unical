@@ -38,7 +38,7 @@ def main():
     st.image("logo.png",width=200)
     #getting the input data from the user
     Pregnancies = st.number_input('Number of Pregnencie', value=0)
-  
+    Glucose = st.number_input('Glucose Level', value=0)
     
     #code for prediction 
     diagnosis = ''
