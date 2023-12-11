@@ -34,7 +34,7 @@ def main():
     
     # giving title
     st.title('Diabetes Diagnostics System University of Calabar Teaching Hospital')
-    st.image("logo.png",width=200,height=100)
+    st.image("logo.png",width=200 height=100)
     #getting the input data from the user
     Pregnancies = st.number_input('Number of Pregnancy', value=0)
     Glucose = st.number_input('Glucose Level', value=0)
