@@ -33,7 +33,7 @@ def diabetes_prediction(input_data):
 def main():
     
     # giving title
-    st.caption('Diabetes Diagnostics System University of Calabar Teaching Hospital')
+    st.subheader('Diabetes Diagnostics System University of Calabar Teaching Hospital')
     st.image("logo.png",width=200)
     #getting the input data from the user
     Pregnancies = st.number_input('Number of Pregnancy', value=0)
