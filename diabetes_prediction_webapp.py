@@ -44,7 +44,6 @@ def main():
     BMI = st.number_input('BMI value', value=0)
     DiabetesPedigreeFunction  = st.number_input('Diabetes Pedigree Function value', value=0)
     Age  = st.number_input('Age of the person', value=0)
-    st.image("logo.png",width=200)
     #code for prediction 
     diagnosis = ''
     
@@ -53,7 +52,7 @@ def main():
         diagnosis = diabetes_prediction([Pregnancies,Glucose,BloodPressure,SkinThickness,Insulin,BMI,DiabetesPedigreeFunction,Age])
     
     st.success(diagnosis)
-
+st.image("logo.png",width=200)
 
 
 if __name__=='__main__':
