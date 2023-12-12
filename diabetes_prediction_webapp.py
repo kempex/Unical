@@ -36,7 +36,7 @@ def main():
     st.subheader('Diabetes Diagnostics System University of Calabar Teaching Hospital')
     st.image("logo.png",width=200)
     #getting the input data from the user
-    values = st.slider('Select a range of values',0.0, 100.0, (25.0, 75.0))
+    age = st.slider('How old are you?', 0, 130, 25)
     Pregnancies = st.number_input('Number of Pregnancy-->(Between 1 - 10)', value=0)
     Glucose = st.number_input('Glucose Level  -->(Without diabetes is 70 to 99 mg/dL)', value=70)
     BloodPressure = st.number_input('Blood Pressure Value  -->(Between 60 - 99)', value=80)
