@@ -24,10 +24,10 @@ def diabetes_prediction(input_data):
     print(prediction)
 
     if (prediction[0] == 0):
-      return 'The person is not diabetic'
+      return 'You are not diabetic'
       st.toast('You can use emoji :sunglasses: in toast message')
     else:
-      return 'The person is diabetic'
+      return 'You are diabetic'
     st.toast('You can use emoji :sunglasses: in toast message')
   
 def main():
@@ -36,7 +36,7 @@ def main():
     st.subheader('Diabetes Diagnostics System University of Calabar Teaching Hospital')
     st.image("logo.png",width=200)
     #getting the input data from the user
-    Pregnancies = st.number_input('Number of Pregnancy', value=0)
+    Pregnancies = st.number_input('Number of Pregnancy(Between 1 - 10)', value=0)
     Glucose = st.number_input('Glucose Level', value=0)
     BloodPressure = st.number_input('Blood Pressure Value', value=80)
     SkinThickness = st.number_input('Skin Thickness Value', value=0)
