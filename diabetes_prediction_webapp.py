@@ -44,7 +44,7 @@ def main():
     Insulin = st.number_input('Insulin Level  -->(Between 0 to 876 mIU/L)', value=5)
     BMI = st.number_input('BMI value  -->(below 18.5 for underweight and 30 or over for obese range)', value=18)
     DiabetesPedigreeFunction  = st.number_input('Diabetes Pedigree Function value -->(Between ranges of 0.08 to 2.42)', value=0)
-    Age  = st.slider('How old are you?', 0, 130, 25)
+    Age  = st.number_input('Age -->(Between ranges of 20 to 130)', value=30)
     #code for prediction 
     diagnosis = ''
     
