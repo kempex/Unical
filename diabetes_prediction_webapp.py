@@ -41,8 +41,8 @@ def main():
     BloodPressure = st.number_input('Blood Pressure Value  -->(Between 60 - 99)', value=80)
     SkinThickness = st.number_input('Skin Thickness Value  -->(1.60 mm to 25.45 mm in males, whereas 3.40 mm to 25.20 mm in females)', value=1.6)
     Insulin = st.number_input('Insulin Level  -->(Between 0 to 876 mIU/L)', value=5)
-    BMI = st.number_input('BMI value  -->(below 18.5 for underweight and 30 or over for obese range', value=18)
-    DiabetesPedigreeFunction  = st.number_input('Diabetes Pedigree Function value -->(Between ranges of 0.08 to 2.42', value=0)
+    BMI = st.number_input('BMI value  -->(below 18.5 for underweight and 30 or over for obese range)', value=18)
+    DiabetesPedigreeFunction  = st.number_input('Diabetes Pedigree Function value -->(Between ranges of 0.08 to 2.42)', value=0)
     Age  = st.number_input('Age of the person -->(Between 20 - 120)', value=20)
     #code for prediction 
     diagnosis = ''
