@@ -37,9 +37,9 @@ def main():
     st.image("logo.png",width=200)
     #getting the input data from the user
     Pregnancies = st.number_input('Number of Pregnancy(Between 1 - 10)', value=0)
-    Glucose = st.number_input('Glucose Level', value=0)
-    BloodPressure = st.number_input('Blood Pressure Value', value=80)
-    SkinThickness = st.number_input('Skin Thickness Value', value=0)
+    Glucose = st.number_input('Glucose Level (Without diabetes is 70 to 99 mg/dL)', value=70)
+    BloodPressure = st.number_input('Blood Pressure Value (Between 60 - 99)', value=80)
+    SkinThickness = st.number_input('Skin Thickness Value (1.60 mm to 25.45 mm in males, whereas 3.40 mm to 25.20 mm in females)', value=1.6)
     Insulin = st.number_input('Insulin Level', value=0)
     BMI = st.number_input('BMI value', value=0)
     DiabetesPedigreeFunction  = st.number_input('Diabetes Pedigree Function value', value=0)
