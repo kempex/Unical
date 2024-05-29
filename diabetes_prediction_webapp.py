@@ -27,12 +27,10 @@ st.balloons()
     else:
       return 'You are diabetic'
      
-
-
 def main():
     
     # giving title
-    #st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+    # st.markdown(hide_streamlit_style, unsafe_allow_html=True)
     st.subheader('Diabetes Diagnostics System')
     st.image("logo2.jpeg",width=200)
     #getting the input data from the user
