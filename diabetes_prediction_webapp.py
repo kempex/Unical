@@ -46,7 +46,7 @@ footer:after {
     st.markdown(hide_streamlit_style, unsafe_allow_html=True)
     st.markdown(hide_streamlit_style2, unsafe_allow_html=True)
     st.subheader('Diabetes Diagnostics System')
-    st.image("logo2.jpeg",width=100,height=100)
+    st.image("logo2.jpeg",width=100)
     #getting the input data from the user
     #age = st.slider('How old are you?', 0, 130, 25)
     Pregnancies = st.number_input('Number of Pregnancy-->(Between 1 - 10)', value=0)
