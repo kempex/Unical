@@ -24,10 +24,10 @@ def diabetes_prediction(input_data):
     print(prediction)
 
     if (prediction[0] == 0):
-        st.toast('You are not diabetic', icon='😍')
+        #st.toast('You are not diabetic', icon='😍')
       return 'You are not diabetic'
     else:
-        st.toast('You are diabetic!', icon='😍')
+       # st.toast('You are diabetic!', icon='😍')
       return 'You are diabetic'
      
   
