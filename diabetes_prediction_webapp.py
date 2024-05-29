@@ -1,8 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Dec 31 12:21:49 2021
-@author: TANDRIMA SINGHA
-"""
 import numpy as np
 import pickle
 import streamlit as st
