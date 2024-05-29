@@ -24,16 +24,17 @@ def diabetes_prediction(input_data):
     print(prediction)
 
     if (prediction[0] == 0):
+        st.toast('You are not diabetic', icon='😍')
       return 'You are not diabetic'
-      st.toast('Your edited image was saved!', icon='😍')
     else:
+        st.toast('You are diabetic!', icon='😍')
       return 'You are diabetic'
-      st.toast('Your edited image was saved!', icon='😍')
+     
   
 def main():
     
     # giving title
-    st.subheader('Diabetes Diagnostics System University of Calabar Teaching Hospital')
+    st.subheader('Diabetes Diagnostics System')
     st.image("logo2.jpeg",width=200)
     #getting the input data from the user
     #age = st.slider('How old are you?', 0, 130, 25)
