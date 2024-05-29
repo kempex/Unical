@@ -22,7 +22,7 @@ def diabetes_prediction(input_data):
       return 'The person is diabetic'
      
 def main():
-    
+    hide_streamlit_style = """ <style> #MainMenu {visibility: hidden;} footer {visibility: hidden;} </style> """
     # giving title
     st.subheader('Diabetes Diagnostics System')
     st.image("logo2.jpeg",width=200)
