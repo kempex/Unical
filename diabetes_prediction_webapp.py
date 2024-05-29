@@ -26,7 +26,7 @@ def main():
     hide_streamlit_style2 = """
            <style>
             #MainMenu {visibility: hidden;}
-            footer {visibility: hidden;}
+            viewerBadge_link__qRIco {visibility: hidden;}
             </style>
             """
     # giving title
