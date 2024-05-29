@@ -35,6 +35,7 @@ def diabetes_prediction(input_data):
 def main():
     
     # giving title
+    st.balloons()
     st.subheader('Diabetes Diagnostics System')
     st.image("logo2.jpeg",width=200)
     #getting the input data from the user
@@ -56,7 +57,7 @@ def main():
         diagnosis = diabetes_prediction([Pregnancies,Glucose,BloodPressure,SkinThickness,Insulin,BMI,DiabetesPedigreeFunction,Age])
    # st.image("logo.png",width=200)
     st.success(diagnosis)
-st.balloons()
+
 
 
 if __name__=='__main__':
