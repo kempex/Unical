@@ -34,7 +34,7 @@ def main():
     
     # giving title
     st.subheader('Diabetes Diagnostics System University of Calabar Teaching Hospital')
-    st.image("logo.png",width=200)
+    st.image("logo2.jpeg",width=200)
     #getting the input data from the user
     #age = st.slider('How old are you?', 0, 130, 25)
     Pregnancies = st.number_input('Number of Pregnancy-->(Between 1 - 10)', value=0)
