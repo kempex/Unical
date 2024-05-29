@@ -11,13 +11,7 @@ import streamlit as st
 loaded_model = pickle.load(open('trained_model.sav', 'rb'))
 st.balloons()
 # creating a function for prediction
-def diabetes_prediction(input_data):
-    hide_streamlit_style = """
-            <style>
-            #MainMenu {visibility: hidden;}
-            footer {visibility: hidden;}
-            </style>
-            """
+
 
 
     # changing the input_data to numpy array
@@ -37,7 +31,13 @@ def diabetes_prediction(input_data):
     else:
       return 'You are diabetic'
      
-
+def diabetes_prediction(input_data):
+    hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            </style>
+            """
 
 def main():
     
