@@ -26,7 +26,7 @@ def main():
     hide_streamlit_style2 = """
            <style>
             #MainMenu {visibility: hidden;}
-            .viewerBadge_container__r5tak styles_viewerBadge__CvC9N {visibility: hidden;}
+            .viewerBadge_container__r5tak styles_viewerBadge__CvC9N {display:none;}
             </style>
             """
     # giving title
