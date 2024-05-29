@@ -29,7 +29,6 @@ def diabetes_prediction(input_data):
        
         
     else:
-       st.balloons()
       return 'You are diabetic'
      
   
@@ -57,7 +56,7 @@ def main():
         diagnosis = diabetes_prediction([Pregnancies,Glucose,BloodPressure,SkinThickness,Insulin,BMI,DiabetesPedigreeFunction,Age])
    # st.image("logo.png",width=200)
     st.success(diagnosis)
-
+st.balloons()
 
 
 if __name__=='__main__':
