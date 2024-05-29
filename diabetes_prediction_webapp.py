@@ -31,13 +31,7 @@ st.balloons()
     else:
       return 'You are diabetic'
      
-def diabetes_prediction(input_data):
-    hide_streamlit_style = """
-            <style>
-            #MainMenu {visibility: hidden;}
-            footer {visibility: hidden;}
-            </style>
-            """
+
 
 def main():
     
