@@ -24,9 +24,9 @@ def diabetes_prediction(input_data):
 def main():
     hide_streamlit_style = """ <style> #MainMenu {visibility: hidden;} footer {visibility: hidden;} </style> """
     hide_streamlit_style2 = """
-            <style>
-            [data-testid="stToolbar"] {visibility: hidden !important;}
-            footer {visibility: hidden !important;}
+           <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
             </style>
             """
     # giving title
