@@ -12,7 +12,13 @@ loaded_model = pickle.load(open('trained_model.sav', 'rb'))
 st.balloons()
 # creating a function for prediction
 def diabetes_prediction(input_data):
-    
+    hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
     # changing the input_data to numpy array
     input_data_as_numpy_array = np.asarray(input_data)
