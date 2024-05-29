@@ -29,7 +29,7 @@ def diabetes_prediction(input_data):
        
         
     else:
-       # st.toast('You are diabetic!', icon='😍')
+       st.balloons()
       return 'You are diabetic'
      
   
