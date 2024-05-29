@@ -22,7 +22,7 @@ def diabetes_prediction(input_data):
       return 'The person is diabetic'
      
 def main():
-    hide_streamlit_style = """ <style> #MainMenu {visibility: hidden;} footer {visibility: hidden;} </style> """
+    hide_streamlit_style = """ <style> #MainMenu {visibility: hidden;} .viewerBadge_container__r5tak styles_viewerBadge__CvC9N {visibility: hidden;} </style> """
     hide_streamlit_style2 = """
            <style>
             #MainMenu {visibility: hidden;}
